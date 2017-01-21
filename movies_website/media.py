@@ -1,6 +1,9 @@
 import webbrowser
 
 class Movie():
+    # using this """ syntax we can add the value of the __doc__ in-built class variable to the class
+    """ This class provides a way to store movie related information """
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     # here '_' are a way for python to tell us that name 'init' is essentialy
     # reserved in python and this is a special function/method.
     # __init__ initializes or creates space in memory.
